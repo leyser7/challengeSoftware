@@ -1,0 +1,9 @@
+Primer punto -------
+
+SELECT clase, año, COUNT(*)	FROM clases
+GROUP by año, clase
+
+Segundo Punto ----------
+
+SELECT nombre, SUM(salario) ,edad FROM empleados
+GROUP by nombre
